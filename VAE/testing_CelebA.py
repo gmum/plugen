@@ -297,7 +297,6 @@ def sample(epoch, class_sigma=0.1, style_sigma=1):
         decoded = model.decoder(latent)
         decoded = (decoded + 1) / 2
 
-    print("Max and min", decoded.max(), decoded.min())
     vutils.save_image(decoded.cpu(
     ), f'{output_dir}/MSP_CelebA_sampling_test_cs{class_sigma}_ss{style_sigma}.jpg', nrow=10, padding=4)
 
@@ -523,7 +522,6 @@ def findImage():
     rst.sort(key = lambda x:x[1])
     rst = [i for i,_ in rst[:60]]
 
-    print(rst)
 
     batch = [data_set[i][0] for i in rst]
     batch = torch.stack(batch)

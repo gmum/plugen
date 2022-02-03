@@ -111,12 +111,9 @@ batch_size = args.batch_size
 image_size = args.image_size
 nf = args.nf
 lr = args.lr
-# lr = 1e-4
-# lr = 1e-5
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print("DEVICE!", device)
 
 dataset = CelebA(
         celeba_zip, celeba_txt, image_size,
@@ -150,7 +147,6 @@ discriminator = Gan(image_size, nf=nf, layer=int(math.log2(image_size)-5)).to(de
 
 print(model)
 # print(discriminator)
-print("Hidden size!", model.hidden_size)
 
 if args.train_mode == 'ae_only':
     model_params = list(model.parameters())
