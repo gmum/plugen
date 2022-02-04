@@ -2,7 +2,7 @@
 <table><tr>
 <td> 
   <p align="center" style="padding: 10px">
-    <img alt="Forwarding" src="assets/img/StyleGAN/attributes_change.png">
+    <img alt="Forwarding" src="assets/img/attributes_change.png">
     <br>
     <em style="color: grey">Attributes manipulation performed by PluGeN using the StyleGAN backbone.</em>
   </p> 
