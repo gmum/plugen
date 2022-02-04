@@ -17,8 +17,8 @@
 
     <header class="page-header" role="banner">
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{% for item in site.authors %} <a href="{{ item.link }}"> {{ item.author }}</a><sup>{{ item.affiliation }}</sup>{% endfor %}</h2>
-        <h3 class="project-tagline">{% for item in site.affiliations %} <sup>{{ item.id }}</sup> {{ item.name }} {% endfor %}</h3>
+        <h2 class="project-authors">{% for item in site.authors %} <a href="{{ item.link }}"> {{ item.author }}</a><sup>{{ item.affiliation }}</sup>{% endfor %}</h2>
+        <h3 class="project-affiliations">{% for item in site.affiliations %} <sup>{{ item.id }}</sup> {{ item.name }} {% endfor %}</h3>
         <a href="{{ site.content.paper}}" class="btn">Paper</a>
         <a href="{{ site.github.repository_url }}" class="btn">Code</a>
         <a href="{{ site.content.short_video}}" class="btn">Short video</a>

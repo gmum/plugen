@@ -13,3 +13,39 @@ $body-link-color: #fff !default;
 $blockquote-text-color: #819198 !default;
 
 @import "{{ site.theme }}";
+
+.project-authors {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1.75rem;
+  }
+
+  @include medium {
+    font-size: 1.5rem;
+  }
+
+  @include small {
+    font-size: 1.25rem;
+  }
+}
+
+.project-affiliations {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 0.9rem;
+  }
+
+  @include small {
+    font-size: 0.8rem;
+  }
+}
