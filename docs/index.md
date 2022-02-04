@@ -1,8 +1,7 @@
 ## PluGeN: Multi-Label Conditional Generation From Pre-Trained Models
 
-[Maciej Wołczyk](https://scholar.google.com/citations?user=f6Xi7aoAAAAJ), [Magdalena Proszewska](https://scholar.google.com/citations?user=f6Xi7aoAAAAJ), [Łukasz Maziarka](https://scholar.google.com/citations?user=f6Xi7aoAAAAJ), [Maciej Zięba](https://scholar.google.com/citations?user=f6Xi7aoAAAAJ), [Patryk Wielopolski](https://scholar.google.com/citations?user=f6Xi7aoAAAAJ), [Rafał Kurczab](), [Marek Śmieja](https://scholar.google.com/citations?user=f6Xi7aoAAAAJ)
+[Maciej Wołczyk](https://scholar.google.com/citations?user=f6Xi7aoAAAAJ), [Magdalena Proszewska](https://scholar.google.com/citations?hl=pl&user=mzA-lkIAAAAJ), [Łukasz Maziarka](https://scholar.google.com/citations?hl=pl&user=2dkp8z4AAAAJ), [Maciej Zięba](https://scholar.google.com/citations?user=XmOBJZYAAAAJ&hl=pl), [Patryk Wielopolski](https://scholar.google.com/citations?user=jXo8u3AAAAAJ&hl=pl), [Rafał Kurczab](), [Marek Śmieja](https://scholar.google.com/citations?user=MOmnpZcAAAAJ&hl=pl)
 
-### Abstract 
 > Modern generative models achieve excellent quality in a variety of tasks including image or text generation and chemical molecule modeling. However, existing methods often lack the essential ability to generate examples with requested properties, such as the age of the person in the photo or the weight of the generated molecule. Incorporating such additional conditioning factors would require rebuilding the entire architecture and optimizing the parameters from scratch. Moreover, it is difficult to disentangle selected attributes so that to perform edits of only one attribute while leaving the others unchanged. To overcome these limitations we propose PluGeN (Plugin Generative Network), a simple yet effective generative technique that can be used as a plugin to pre-trained generative models. The idea behind our approach is to transform the entangled latent representation using a flow-based module into a multi-dimensional space where the values of each attribute are modeled as an independent one-dimensional distribution. In consequence, PluGeN can generate new samples with desired attributes as well as manipulate labeled attributes of existing examples. Due to the disentangling of the latent representation, we are even able to generate samples with rare or unseen combinations of attributes in the dataset, such as a young person with gray hair, men with make-up, or women with beards. We combined PluGeN with GAN and VAE models and applied it to conditional generation and manipulation of images and chemical molecule modeling. Experiments demonstrate that PluGeN preserves the quality of backbone models while adding the ability to control the values of labeled attributes.
 
 ### Method
@@ -29,8 +28,10 @@ PluGeN factorizes true data distribution into components (marginal distributions
 components, see (b). In the case illustrated here, PluGeN constructs pictures of men with make-up or women with beards,
 although such examples rarely (or never) appear in the training set.
 
-[Architecture](assets/img/schemat5.png)
+![Architecture](assets/img/schemat5.png)
 
-Schema ...
+PluGeN maps the entangled latent space Z of pretrained generative models using invertible normalizing flow
+into a separate space, where labeled attributes are modeled
+using independent 1-dimensional distributions. By manipulating label variables in this space, we fully control the generation process.
 
 
