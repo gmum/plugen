@@ -58,7 +58,17 @@
 ### Attribute manipulation 
 
 GAN
-VAE
+
+
+<table><tr>
+<td> 
+  <p align="center">
+    <img alt="Routing" src="assets/img/vae-plugen-manipulation.png">
+    <br>
+    <em style="color: grey"> Examples of image attribute manipulation using VAE backbone).</em>
+  </p> 
+</td>
+</tr></table>
 
 ### Conditional generation
 
