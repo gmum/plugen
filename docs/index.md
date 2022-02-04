@@ -62,7 +62,15 @@ VAE
 
 ### Conditional generation
 
-VAE
+<table><tr>
+<td> 
+  <p align="center">
+    <img alt="Routing" src="assets/img/generation_without_frame.png">
+    <br>
+    <em style="color: grey"> Examples of conditional generation using VAE backbone. Each row contains the same person (style variables) with modified attributes (label variables).</em>
+  </p> 
+</td>
+</tr></table>
 
 ### Chemical molecules modeling
 
@@ -72,7 +80,7 @@ VAE
   <p align="center" style="padding: 10px">
     <img alt="Forwarding" src="assets/img/traverse_mols_v2.png">
     <br>
-    <em style="color: grey">(a)  Molecules decoded from path.</em>
+    <em style="color: grey">(a) Molecules decoded from path.</em>
   </p> 
 </td>
 <td> 
@@ -86,7 +94,7 @@ VAE
 <tr>  
     <td colspan="2">
     <p align="center">
-        <em style="color: grey">: Molecules obtained by the model during an optimization phase (a), and their LogP (b).</em>
+        <em style="color: grey"> Molecules obtained by the model during an optimization phase (a), and their LogP (b).</em>
     </p>
     </td>
 </tr>
