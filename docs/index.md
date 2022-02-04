@@ -34,7 +34,7 @@
 </td>
 </tr>
 <tr>  
-    <td rowspan="2">
+    <td colspan="2">
     <p align="center">
         <em style="color: grey">PluGeN factorizes true data distribution into components (marginal distributions) related to labeled attributes, see (a), and allows for describing unexplored regions of data (uncommon combinations of labels) by sampling from independent components, see (b). In the case illustrated here, PluGeN constructs pictures of men with make-up or women with beards, although such examples rarely (or never) appear in the training set.</em>
     </p>
