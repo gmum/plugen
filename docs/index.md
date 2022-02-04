@@ -28,7 +28,7 @@
   <p align="center">
     <img alt="Routing" src="assets/img/PluGEN_2D_8_mod3.png">
     <br>
-    <em style="color: grey">(b) Probability distribution covered by PluGeN.</em>
+    <em style="color: grey">(b) Distribution covered by PluGeN.</em>
   </p> 
 </td>
 </tr>
@@ -55,4 +55,39 @@
 
 ## Results
 
+### Attribute manipulation 
 
+GAN
+VAE
+
+### Conditional generation
+
+VAE
+
+### Chemical molecules modeling
+
+<table>
+<tr>
+<td> 
+  <p align="center" style="padding: 10px">
+    <img alt="Forwarding" src="assets/img/traverse_mols_v2.png">
+    <br>
+    <em style="color: grey">(a)  Molecules decoded from path.</em>
+  </p> 
+</td>
+<td> 
+  <p align="center">
+    <img alt="Routing" src="assets/img/traverse_logP_v2.png">
+    <br>
+    <em style="color: grey">(b) LogP of presented molecules.</em>
+  </p> 
+</td>
+</tr>
+<tr>  
+    <td colspan="2">
+    <p align="center">
+        <em style="color: grey">: Molecules obtained by the model during an optimization phase (a), and their LogP (b).</em>
+    </p>
+    </td>
+</tr>
+</table>
