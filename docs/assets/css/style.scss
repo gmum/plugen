@@ -9,7 +9,7 @@ $header-bg-color-secondary: #155799 !default;
 // Text
 $section-headings-color: #EBA838 !default;
 $body-text-color: #606c71 !default;
-$body-link-color: #fff !default;
+$body-link-color: #1e6bb8 !default;
 $blockquote-text-color: #819198 !default;
 
 @import "{{ site.theme }}";
@@ -47,5 +47,11 @@ $blockquote-text-color: #819198 !default;
 
   @include small {
     font-size: 0.8rem;
+  }
+}
+
+.page-header {
+  a {
+    color: #fff;
   }
 }
