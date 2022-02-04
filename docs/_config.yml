@@ -32,13 +32,13 @@ authors:
 affiliations:
   -
     id: 1
-    name: Jagiellonian University
+    name: Jagiellonian University,
   -
     id: 2
-    name: Wroclaw University of Science and Technology
+    name: Wroclaw University of Science and Technology,
   -
     id: 3
-    name: Institute of Pharmacology PAS
+    name: Institute of Pharmacology PAS,
   -
     id: 4
     name: Tooploox
