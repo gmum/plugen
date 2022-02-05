@@ -72,3 +72,8 @@ $blockquote-text-color: #819198 !default;
     color: #fff;
   }
 }
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
