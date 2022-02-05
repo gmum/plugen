@@ -82,7 +82,7 @@
 </td>
 </tr>
 <tr>  
-    <td colspan="2">
+    <td colspan="3">
     <p align="center">
         <em style="color: grey">Gradual modification of attributes (age, baldness, and yaw, respectively) performed on the StyleGAN latent codes. </em>
     </p>
