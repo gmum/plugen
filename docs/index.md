@@ -61,21 +61,21 @@
 <tr>
 <td> 
   <p align="center" style="padding: 10px">
-    <img style="max-width: 100%;" alt="Forwarding" src="assets/img/a.gif">
+    <img style="object-fit:scale-down;" alt="Forwarding" src="assets/img/a.gif">
     <br>
     <em style="color: grey">Age</em>
   </p> 
 </td>
 <td> 
   <p align="center">
-    <img style="max-width: 100%;" alt="Routing" src="assets/img/h.gif">
+    <img style="object-fit:scale-down;" alt="Routing" src="assets/img/h.gif">
     <br>
     <em style="color: grey">Baldness</em>
   </p> 
 </td>
 <td> 
   <p align="center">
-    <img style="max-width: 100%;" alt="Routing" src="assets/img/r.gif">
+    <img style="object-fit:scale-down;" alt="Routing" src="assets/img/r.gif">
     <br>
     <em style="color: grey">Yaw</em>
   </p> 
