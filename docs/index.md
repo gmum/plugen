@@ -59,23 +59,23 @@
 
 <table>
 <tr>
-<td> 
+<td width="33%"> 
   <p align="center" style="padding: 10px">
-    <img style="max-width: 200px;" alt="Forwarding" src="assets/img/a.gif">
+    <img alt="Forwarding" src="assets/img/a.gif">
     <br>
     <em style="color: grey">Age</em>
   </p> 
 </td>
-<td> 
+<td width="33%"> 
   <p align="center">
-    <img style="max-width: 200px;" alt="Routing" src="assets/img/h.gif">
+    <img alt="Routing" src="assets/img/h.gif">
     <br>
     <em style="color: grey">Baldness</em>
   </p> 
 </td>
-<td> 
+<td width="33%"> 
   <p align="center">
-    <img style="max-width: 200px;" alt="Routing" src="assets/img/r.gif">
+    <img alt="Routing" src="assets/img/r.gif">
     <br>
     <em style="color: grey">Yaw</em>
   </p> 
@@ -84,7 +84,7 @@
 <tr>  
     <td colspan="3">
     <p align="center">
-        <em style="color: grey">Gradual modification of attributes (age, baldness, and yaw, respectively) performed on the StyleGAN latent codes. </em>
+        <em style="color: grey">Gradual modification of attributes performed on the StyleGAN latent codes. </em>
     </p>
     </td>
 </tr>
