@@ -73,10 +73,13 @@ $blockquote-text-color: #819198 !default;
   }
 }
 
-table {
-  display: table;
+.main-content {
+  table {
+    display: table;
 
-  td {
-    width: 1%;
+    td {
+      width: 1%;
+    }
   }
+
 }
