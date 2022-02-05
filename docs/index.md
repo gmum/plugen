@@ -60,7 +60,7 @@
 <table>
 <tr>
 <td width="33%"> 
-  <p align="center" style="padding: 10px">
+  <p align="center">
     <img alt="Forwarding" src="assets/img/a.gif">
     <br>
     <em style="color: grey">Age</em>
