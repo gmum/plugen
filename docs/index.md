@@ -57,8 +57,40 @@
 
 ### Attribute manipulation 
 
-GAN
+<table>
+<tr>
+<td> 
+  <p align="center" style="padding: 10px">
+    <img alt="Forwarding" src="assets/img/a.gif">
+    <br>
+    <em style="color: grey">Age</em>
+  </p> 
+</td>
+<td> 
+  <p align="center">
+    <img alt="Routing" src="assets/img/h.gif">
+    <br>
+    <em style="color: grey">Baldness</em>
+  </p> 
+</td>
+<td> 
+  <p align="center">
+    <img alt="Routing" src="assets/img/r.gif">
+    <br>
+    <em style="color: grey">Yaw</em>
+  </p> 
+</td>
+</tr>
+<tr>  
+    <td colspan="2">
+    <p align="center">
+        <em style="color: grey">Gradual modification of attributes (age, baldness, and yaw, respectively) performed on the StyleGAN latent codes. </em>
+    </p>
+    </td>
+</tr>
+</table>
 
+<br>
 
 <table><tr>
 <td> 
