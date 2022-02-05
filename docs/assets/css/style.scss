@@ -14,13 +14,30 @@ $blockquote-text-color: #819198 !default;
 
 @import "{{ site.theme }}";
 
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include large {
+    font-size: 3rem;
+  }
+
+  @include medium {
+    font-size: 2.25rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
+}
+
 .project-authors {
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7;
 
   @include large {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
   }
 
   @include medium {
