@@ -92,7 +92,7 @@
 
 <br>
 
-<table align="center"><tr>
+<table><tr>
 <td> 
   <p align="center">
     <img alt="Routing" src="assets/img/vae-plugen-manipulation.png">
