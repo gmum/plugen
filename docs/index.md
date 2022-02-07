@@ -147,9 +147,9 @@
   * The research of M. Wołczyk was supported by the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund in the POIR.04.04.00-00-14DE/18-00 project carried out within the Team-Net programme.
   * The research of M. Proszewska was supported by the National Science Centre (Poland), grant no. 2018/31/B/ST6/00993.
   * The research of Ł. Maziarka was supported by the National Science Centre (Poland), grant no. 2019/35/N/ST6/02125. 
-  * The research of M. Zieba was supported by the National Centre of Science (Poland), grant No. 2020/37/B/ST6/03463.
+  * The research of M. Zięba was supported by the National Centre of Science (Poland), grant No. 2020/37/B/ST6/03463.
   * The research of R. Kurczab was supported by the Polish National Centre for Research and Development (Grant LIDER/37/0137/L9/17/NCBR/2018).
-  * The research of M. Smieja was funded by the Priority Research Area DigiWorld under the program Excellence Initiative - Research University at the Jagiellonian University in Krakow.
+  * The research of M. Śmieja was funded by the Priority Research Area DigiWorld under the program Excellence Initiative - Research University at the Jagiellonian University in Krakow.
   
 ## Related works
 
