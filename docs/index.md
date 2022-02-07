@@ -153,9 +153,9 @@
   
 ## Related works
 
-  * MSP
-  * StyleFlow
-  * StyleGAN
+  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, Frank Guerin *Latent Space Factorisation and Manipulation via Matrix Subspace Projection* [Paper](https://arxiv.org/abs/1907.12385v1) [Github](https://github.com/lissomx/MSP)
+  * Rameen Abdal, Peihao Zhu, Niloy J. Mitra, Peter Wonka. *StyleFlow: Attribute-conditioned Exploration of StyleGAN-Generated Images using Conditional Continuous Normalizing Flows* [Paper](https://dl.acm.org/doi/10.1145/3447648) [Github](https://rameenabdal.github.io/StyleFlow/)
+  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. *Analyzing and Improving the Image Quality of StyleGAN* [Paper](https://arxiv.org/abs/1912.04958) [Github](https://github.com/NVlabs/stylegan2)
 
 ## Bibtex
 ```bibtex
