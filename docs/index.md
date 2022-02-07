@@ -142,22 +142,6 @@
 </tr>
 </table>
 
-## Acknowledgments
-
-  * The research of M. Wołczyk was supported by the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund in the POIR.04.04.00-00-14DE/18-00 project carried out within the Team-Net programme.
-  * The research of M. Proszewska was supported by the National Science Centre (Poland), grant no. 2018/31/B/ST6/00993.
-  * The research of Ł. Maziarka was supported by the National Science Centre (Poland), grant no. 2019/35/N/ST6/02125. 
-  * The research of M. Zięba was supported by the National Centre of Science (Poland), grant No. 2020/37/B/ST6/03463.
-  * The research of R. Kurczab was supported by the Polish National Centre for Research and Development (Grant LIDER/37/0137/L9/17/NCBR/2018).
-  * The research of M. Śmieja was funded by the Priority Research Area DigiWorld under the program Excellence Initiative - Research University at the Jagiellonian University in Krakow.
-  
-## Related works
-
-  * Laurent Dinh, David Krueger, Yoshua Bengio. *Nice: Non-linear independent components estimation.* [Paper](https://arxiv.org/abs/1410.8516v6)
-  * Rafael Gómez-Bombarelli, Jennifer N. Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla, Jorge Aguilera-Iparraguirre, Timothy D. Hirzel, Ryan P. Adams, AlánAspuru-Guzik. *Automatic chemical design using a data-driven continuous representation of molecules.* [Paper](https://pubs.acs.org/doi/10.1021/acscentsci.7b00572)
-  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, Frank Guerin. *Latent Space Factorisation and Manipulation via Matrix Subspace Projection.* [Paper](https://arxiv.org/abs/1907.12385v1) [Github](https://github.com/lissomx/MSP)
-  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. *Analyzing and Improving the Image Quality of StyleGAN.* [Paper](https://arxiv.org/abs/1912.04958) [Github](https://github.com/NVlabs/stylegan2)
-
 ## Bibtex
 ```bibtex
 @misc{wołczyk2022plugen,
