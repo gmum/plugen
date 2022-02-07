@@ -160,7 +160,7 @@
 ## Bibtex
 ```bibtex
 @misc{wołczyk2022plugen,
-      title={{PluGeN: Multi-Label Conditional Generation From Pre-Trained Models}}, 
+      title={PluGeN: Multi-Label Conditional Generation From Pre-Trained Models}, 
       author={Maciej Wołczyk and Magdalena Proszewska and Łukasz Maziarka and Maciej Zięba and Patryk Wielopolski and Rafał Kurczab and Marek Śmieja},
       year={2022},
       eprint={2109.09011},
