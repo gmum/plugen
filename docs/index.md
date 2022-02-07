@@ -164,10 +164,10 @@
 
 ## References
 
-  * Laurent Dinh, David Krueger, and Yoshua Bengio. Nice: Non-linear independent components estimation. arXiv preprint arXiv:1410.8516, 2014.
-  * Rafael Gómez-Bombarelli, Jennifer N Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla,Jorge Aguilera-Iparraguirre, Timothy D Hirzel, Ryan P Adams, and Alán Aspuru-Guzik. Automatic chemical design using a data-driven continuous representation of molecules. ACS central science, 4(2):268–276, 2018.
-  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, and Timo Aila. Analyzing and improving the image quality of StyleGAN. In Proc. CVPR, 2020.
-  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, and Frank Guerin. Latent space factorisation and manipulationvia matrix subspace projection. In International Conference on Machine Learning, pages 5916–5926. PMLR, 2020.
+  * Laurent Dinh, David Krueger, and Yoshua Bengio. *Nice: Non-linear independent components estimation.* arXiv preprint arXiv:1410.8516, 2014.
+  * Rafael Gómez-Bombarelli, Jennifer N Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla,Jorge Aguilera-Iparraguirre, Timothy D Hirzel, Ryan P Adams, and Alán Aspuru-Guzik. *Automatic chemical design using a data-driven continuous representation of molecules.* ACS central science, 4(2):268–276, 2018.
+  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, and Timo Aila. *Analyzing and improving the image quality of StyleGAN.* In Proc. CVPR, 2020.
+  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, and Frank Guerin. *Latent space factorisation and manipulationvia matrix subspace projection.* In International Conference on Machine Learning, pages 5916–5926. PMLR, 2020.
 
 ## Bibtex
 ```bibtex
