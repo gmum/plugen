@@ -61,21 +61,21 @@
 <tr>
 <td width="33%"> 
   <p align="center">
-    <img alt="Forwarding" src="assets/img/a.gif">
+    <img alt="Forwarding" src="assets/img/age.gif">
     <br>
     <em style="color: grey">Age</em>
   </p> 
 </td>
 <td width="33%"> 
   <p align="center">
-    <img alt="Routing" src="assets/img/h.gif">
+    <img alt="Routing" src="assets/img/baldness.gif">
     <br>
     <em style="color: grey">Baldness</em>
   </p> 
 </td>
 <td width="33%"> 
   <p align="center">
-    <img alt="Routing" src="assets/img/r.gif">
+    <img alt="Routing" src="assets/img/rotate.gif">
     <br>
     <em style="color: grey">Yaw</em>
   </p> 
