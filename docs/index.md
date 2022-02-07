@@ -154,9 +154,9 @@
 ## Related works
 
   * Laurent Dinh, David Krueger, Yoshua Bengio. *Nice: Non-linear independent components estimation.* [Paper](https://arxiv.org/abs/1410.8516v6)
-  * Rafael Gómez-Bombarelli, Jennifer N. Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla, Jorge Aguilera-Iparraguirre, Timothy D. Hirzel, Ryan P. Adams, AlánAspuru-Guzik. *Automatic chemical design using a data-driven continuous representation ofmolecules.* [Paper](https://pubs.acs.org/doi/10.1021/acscentsci.7b00572)
-  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, Frank Guerin. *Latent Space Factorisation and Manipulation via Matrix Subspace Projection* [Paper](https://arxiv.org/abs/1907.12385v1) [Github](https://github.com/lissomx/MSP)
-  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. *Analyzing and Improving the Image Quality of StyleGAN* [Paper](https://arxiv.org/abs/1912.04958) [Github](https://github.com/NVlabs/stylegan2)
+  * Rafael Gómez-Bombarelli, Jennifer N. Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla, Jorge Aguilera-Iparraguirre, Timothy D. Hirzel, Ryan P. Adams, AlánAspuru-Guzik. *Automatic chemical design using a data-driven continuous representation of molecules.* [Paper](https://pubs.acs.org/doi/10.1021/acscentsci.7b00572)
+  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, Frank Guerin. *Latent Space Factorisation and Manipulation via Matrix Subspace Projection.* [Paper](https://arxiv.org/abs/1907.12385v1) [Github](https://github.com/lissomx/MSP)
+  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila. *Analyzing and Improving the Image Quality of StyleGAN.* [Paper](https://arxiv.org/abs/1912.04958) [Github](https://github.com/NVlabs/stylegan2)
 
 ## Bibtex
 ```bibtex
