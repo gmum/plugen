@@ -144,10 +144,14 @@
 
 ## Related works
 
-  * Laurent Dinh, David Krueger, and Yoshua Bengio. Nice: Non-linear independent components estimation. arXiv preprint arXiv:1410.8516, 2014.
-  * Rafael Gómez-Bombarelli, Jennifer N Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla,Jorge Aguilera-Iparraguirre, Timothy D Hirzel, Ryan P Adams, and Alán Aspuru-Guzik. Automatic chemical design using a data-driven continuous representation of molecules. ACS central science, 4(2):268–276, 2018.
-  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, and Timo Aila. Analyzing and improving the image quality of StyleGAN. In Proc. CVPR, 2020.
-  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, and Frank Guerin. Latent space factorisation and manipulationvia matrix subspace projection. In International Conference on Machine Learning, pages 5916–5926. PMLR, 2020.
+  * Conditional VAE (cVAE)  (Kingma et al. 2014)
+  * Conditional GAN (cGAN)  (Mirza and Osindero 2014; Perarnau et al. 2016; He et al. 2019)
+  * Fader Networks  (Lample et al. 2017)
+  * MSP  (Li et al. 2020)
+  * CAGlow  (Liu et al. 2019) 
+  * StyleFlow  (Abdal et al. 2021)
+  * InterFaceGAN  (Shen et al. 2020)
+  * Hijack-GAN  (Wang, Yu, and Fritz 2021)
 
 ## Acknowledgments
 
@@ -157,6 +161,13 @@
   * The research of M. Zieba was supported by the National Centre of Science (Poland), grant No. 2020/37/B/ST6/03463.
   * The research of R. Kurczab was supported by the Polish National Centre for Research and Development (Grant LIDER/37/0137/L9/17/NCBR/2018).
   * The research of M. Smieja was funded by the Priority Research Area DigiWorld under the program Excellence Initiative -– Research University at the Jagiellonian University in Krakow.
+
+## References
+
+  * Laurent Dinh, David Krueger, and Yoshua Bengio. Nice: Non-linear independent components estimation. arXiv preprint arXiv:1410.8516, 2014.
+  * Rafael Gómez-Bombarelli, Jennifer N Wei, David Duvenaud, José Miguel Hernández-Lobato, Benjamín Sánchez-Lengeling, Dennis Sheberla,Jorge Aguilera-Iparraguirre, Timothy D Hirzel, Ryan P Adams, and Alán Aspuru-Guzik. Automatic chemical design using a data-driven continuous representation of molecules. ACS central science, 4(2):268–276, 2018.
+  * Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, and Timo Aila. Analyzing and improving the image quality of StyleGAN. In Proc. CVPR, 2020.
+  * Xiao Li, Chenghua Lin, Ruizhe Li, Chaozheng Wang, and Frank Guerin. Latent space factorisation and manipulationvia matrix subspace projection. In International Conference on Machine Learning, pages 5916–5926. PMLR, 2020.
 
 ## Bibtex
 ```bibtex
