@@ -9,7 +9,7 @@ Setup the environment using conda:
 conda env create -f environment.yml
 ```
 
-Then Download the [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and put the `img_align_celeba.zip` file with images and the `list_attr_celeba.txt` file with labels in the `./CelebA_Dataset/` directory.
+Then download the [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and put the `img_align_celeba.zip` file with images and the `list_attr_celeba.txt` file with labels in the `./CelebA_Dataset/` directory.
 
 ## Training
 Run 
