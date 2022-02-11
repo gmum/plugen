@@ -1,6 +1,8 @@
 # StyleGAN with PluGeN
 
-Code is based on [StyleFlow](https://github.com/RameenAbdal/StyleFlow).
+Code is based on [StyleFlow](https://github.com/RameenAbdal/StyleFlow). 
+
+
 
 ## Setup
 #### Environment
@@ -29,3 +31,6 @@ python evaluate.py
 ```
 python evaluate.py --styleflow
 ```
+
+## License
+All rights reserved. Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**). The code is released for academic research use only.
