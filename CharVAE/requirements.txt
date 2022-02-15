@@ -1,0 +1,9 @@
+gin-config
+tqdm
+numpy
+pandas
+matplotlib
+torch
+torchtext
+rdkit
+SmilesPE
