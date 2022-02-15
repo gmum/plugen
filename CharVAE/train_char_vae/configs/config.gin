@@ -1,0 +1,23 @@
+
+# Data config
+get_dataset.data_path = './data/sample.csv'
+
+# Train hps
+train.num_epochs = 100
+train.lr = 0.0001
+train.batch_size = 256
+
+# Model config
+train.encoder_fn = @EncoderRNN
+train.decoder_fn = @DecoderRNN
+
+EncoderRNN.hidden_size = 256
+EncoderRNN.output_size = 100
+EncoderRNN.n_layers = 3
+
+DecoderRNN.input_size = 100
+DecoderRNN.hidden_size = 256
+DecoderRNN.n_layers = 3
+
+# Save path
+train.model_name = 'preds/SmilesVAE'

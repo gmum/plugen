@@ -1,12 +1,15 @@
+import gin
 import numpy as np
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# device = 'cpu'
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+
+@gin.configurable
 class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, n_layers=1, bidirectional=True):
         super(EncoderRNN, self).__init__()
@@ -18,7 +21,7 @@ class EncoderRNN(nn.Module):
 
         self.embed = nn.Embedding(input_size, hidden_size)
         self.gru = nn.GRU(hidden_size, hidden_size, n_layers, dropout=0.1, bidirectional=bidirectional)
-        self.o2p = nn.Linear(hidden_size * (4 if bidirectional else 2), output_size * 2)
+        self.o2p = nn.Linear(hidden_size, output_size * 2)
         
     def sample(self, mu, logvar):
         eps = Variable(torch.randn(mu.size())).to(device)
@@ -29,17 +32,20 @@ class EncoderRNN(nn.Module):
         embedded = self.embed(input)# .unsqueeze(1)
 
         output, hidden = self.gru(embedded, None)
-        
-        avg_pool = torch.mean(output, 0)
-        max_pool, _ = torch.max(output, 0)
-        output = torch.cat((avg_pool, max_pool), 1)
+        # mean loses positional info?
+        output = output[-1]
+        if self.bidirectional:
+            output = output[:, :self.hidden_size] + output[: ,self.hidden_size:] # Sum bidirectional outputs
+        else:
+            output = output[:, :self.hidden_size]
 
         ps = self.o2p(output)
         mu, logvar = torch.chunk(ps, 2, dim=1)
         z = self.sample(mu, logvar)
         return mu, logvar, z
-    
-    
+
+
+@gin.configurable
 class DecoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, n_layers=1, sos_token='<s>', max_sample=True):
         super(DecoderRNN, self).__init__()
@@ -113,39 +119,20 @@ class DecoderRNN(nn.Module):
         return output, hidden
 
 
+@gin.configurable
 class VAE(nn.Module):
     def __init__(self, encoder, decoder):
         super(VAE, self).__init__()
         self.encoder = encoder
         self.decoder = decoder
-        
-    def encode(self, inputs):
-        mu, logvar, z = self.encoder(inputs)
-        return mu, logvar, z
-    
-    def decode(self, z, inputs, temperature):
-        return self.decoder(z, inputs, temperature)
-
-    def forward(self, inputs, temperature=1.0):
-        mu, logvar, z = self.encode(inputs)
-        decoded = self.decode(z, inputs, temperature)
-        return mu, logvar, z, decoded
-    
-    
-class MSP(nn.Module):
-    def __init__(self, vae, flow, label_size):
-        super(MSP, self).__init__()
-        self.vae = vae
-        self.flow = flow
-        self.label_size = label_size
+        self.steps_seen = 0
 
     def encode(self, inputs):
-        mu, logvar, z = self.vae.encode(inputs)
-        flow_z = self.flow(z)
-        return mu, logvar, z, flow_z
+        m, l, z = self.encoder(inputs)
+        return m, l, z
 
     def forward(self, inputs, temperature=1.0):
-        mu, logvar, z, flow_z = self.encode(inputs)
-        decoded = self.vae.decode(z, inputs, temperature)
-        return mu, logvar, z, flow_z, decoded
+        m, l, z = self.encoder(inputs)
+        decoded = self.decoder(z, inputs, temperature)
+        return m, l, z, decoded
     

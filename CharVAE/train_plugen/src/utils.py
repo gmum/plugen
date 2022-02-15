@@ -1,6 +1,4 @@
 import torch
-import rdkit
-import rdkit.Chem as Chem
 from rdkit.Chem import AllChem
 
 
@@ -20,7 +18,6 @@ def return_smiles(tensor, SRC):
         smi = ''.join(list(map(lambda x: SRC.vocab.itos[x], ex)))
         smi = smi.lstrip('<s>')
         smi = smi.rstrip('<blank>')
-#         smi = smi.rstrip('</s>')
         where_end = smi.find('</s>')
         if where_end != -1:
             smi = smi[:where_end]

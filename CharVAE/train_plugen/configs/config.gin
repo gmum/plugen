@@ -1,0 +1,37 @@
+# Data config
+train.task = 'regression'
+get_dataset.data_path = './data/sample.csv'
+train.num_features = 3
+get_dataset.features = ['logP', 'qed', 'SAS']
+
+# Train hps
+train.num_epochs = 50
+train.lr = 0.0001
+train.batch_size = 256
+train.alpha = 1.
+train.sigma = 1.
+train.sigma_decay_base = 0.9
+
+# Model config
+train.encoder_fn = @EncoderRNN
+train.decoder_fn = @DecoderRNN
+train.flow_fn = @FlowModel
+
+EncoderRNN.hidden_size = 256
+EncoderRNN.output_size = 100
+EncoderRNN.n_layers = 3
+
+DecoderRNN.input_size = 100
+DecoderRNN.hidden_size = 256
+DecoderRNN.n_layers = 3
+
+FlowModel.input_dim = 100
+FlowModel.n_layers = 6
+FlowModel.n_couplings = 6
+FlowModel.hidden_dim = 256
+
+# Saved Smiles VAE model
+train.load_checkpoint = 'saved/smilesvae/final_model.pt'
+
+# Save path
+train.model_name = 'plugen'
