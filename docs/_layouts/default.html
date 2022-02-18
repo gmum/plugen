@@ -21,12 +21,6 @@
         <h3 class="project-affiliations">{% for item in site.affiliations %} <sup>{{ item.id }}</sup> {{ item.name }} {% endfor %}</h3>
         {% if site.content.paper|length %} <a href="{{ site.content.paper }}" class="btn">Paper</a> {% endif %}
         <a href="{{ site.github.repository_url }}" class="btn">Code</a> {% endif %}
-        {% if site.content.short_video %}
-            <a href="{{ site.content.short_video }}" class="btn">Short video</a>
-        {% endif %}
-            <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        {% if site.content.long_video|length %} <a href="{{ site.content.long_video }}" class="btn">Long video</a> {% endif %}
-        {% if site.content.poster|length %} <a href="{{ site.content.poster }}" class="btn">Poster</a> {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
