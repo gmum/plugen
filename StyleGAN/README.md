@@ -10,7 +10,7 @@ Code is based on [StyleFlow](https://github.com/RameenAbdal/StyleFlow).
 conda env create -f environment.yml
 ```
 #### Dataset
-StyleGAN latents and attributes ([download here](https://drive.google.com/file/d/1opdzeqpYWtE1uexO49JI-3_RWfE9MYlN/view)).
+StyleGAN latents and attributes from StyleFlow ([download here](https://drive.google.com/file/d/1Kesr-oQ2XgXd6KZDxJ8Uy04xXZlbBZ0y/view?usp=sharing)).
 
 ## Training
 #### PluGeN
